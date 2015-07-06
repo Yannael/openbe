@@ -1,0 +1,64 @@
+{
+  "name": "openbe",
+  "title": "",
+  "description": "",
+  "maintainer": [],
+  "contributors": [],
+  "version": "1",
+  "last_updated": "2015-07-06",
+  "homepage": "",
+  "keywords": [],
+  "publisher": [],
+  "url": "",
+  "base": "",
+  "image": "",
+  "license": [
+    {
+      "type": "PDDL-1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "dataDependencies": "",
+  "sources": [],
+  "resources": [
+    {
+      "path": "data/openbe.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "COFOG.code",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "X2008",
+            "type": "number"
+          },
+          {
+            "name": "X2009",
+            "type": "number"
+          },
+          {
+            "name": "X2010",
+            "type": "number"
+          },
+          {
+            "name": "X2011",
+            "type": "number"
+          },
+          {
+            "name": "X2012",
+            "type": "number"
+          },
+          {
+            "name": "X2013",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
